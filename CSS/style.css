@@ -1,6 +1,9 @@
 /*Header*/
 .header {
-    padding: 130px;
+    padding-top: 130px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 130px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     color: white;
@@ -51,7 +54,14 @@ a {
     margin-left: 20px;
     padding-top: 25px;
 }
-.about-Me, .work, .contact {
+.work {
+    margin-bottom: 20px;
+    padding: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    color: white;
+}
+.about-Me, .contact {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -59,6 +69,7 @@ a {
     background-color: black;
     color: #ffffff;
 }
+
 
 /*aside*/
 .sections {
@@ -74,13 +85,38 @@ a {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
     background-color: black;
 }
-.sections-about-me, .sections-work, .sections-contact {
-    margin-bottom: 400px;
+.sections-about-me {
+    margin-bottom: 870px;
+    color: white;
+}
+.sections-work {
+    margin-bottom: 500px;
+    color: white;
+}
+.sections-contact {
+    margin-bottom: 305px;
     color: #ffffff;
 }
 .sections h3 {
     margin-bottom: 10px;
     text-align:center;
+}
+
+/*media & other elements*/
+@media screen and (max-width:1750px) {
+    .about-Me, .work, .contact{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:1750px) {
+    .hehe {
+        width: 50%;
+    }
+}
+html {
+    scroll-behavior: smooth;
 }
