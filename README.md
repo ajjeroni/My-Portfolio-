@@ -12,7 +12,7 @@ N/A
 
 ## Usage
 
-Click the link to access [My Portfolio] (https://ajjeroni.github.io/My-Portfolio-/)
+Click the link to access [My Portfolio](https://ajjeroni.github.io/My-Portfolio-/)
 
 ## Credits
 
