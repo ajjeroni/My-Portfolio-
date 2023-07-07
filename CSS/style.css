@@ -61,6 +61,10 @@ a {
     background-color: black;
     color: white;
 }
+.hihi {
+    width: 1000px;
+    height: auto; 
+}
 .about-Me, .contact {
     margin-bottom: 20px;
     padding: 50px;
